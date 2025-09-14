@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -7,18 +6,205 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Past Tense Practice | A2 English</title>
     <script src="https://cdn.tailwindcss.com"></script>
-  <script type="importmap">
-{
-  "imports": {
-    "react/": "https://aistudiocdn.com/react@^19.1.1/",
-    "react": "https://aistudiocdn.com/react@^19.1.1",
-    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/"
-  }
-}
-</script>
-</head>
-  <body class="bg-slate-50 text-slate-800">
-    <div id="root"></div>
-    <script type="module" src="/index.tsx"></script>
+  </head>
+  <body class="bg-slate-50 text-slate-800 font-sans">
+    
+    <!-- Header -->
+    <header class="bg-indigo-600 shadow-lg w-full">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-center text-center py-6">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-white" viewBox="0 0 20 20" fill="currentColor">
+              <path d="M9 4.804A7.968 7.968 0 005.5 4c-1.255 0-2.443.29-3.5.804v10A7.969 7.969 0 015.5 14c1.669 0 3.218.51 4.5 1.385A7.962 7.962 0 0114.5 14c1.255 0 2.443.29 3.5.804v-10A7.968 7.968 0 0014.5 4c-1.255 0-2.443.29-3.5.804V12a1 1 0 11-2 0V4.804z" />
+          </svg>
+          <div class="ml-4">
+            <h1 class="text-3xl sm:text-4xl font-bold text-white tracking-tight">Past Simple & Past Continuous</h1>
+            <p class="text-indigo-200 text-lg">Your Guide for A2 English Learners</p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="flex-grow container mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <div class="max-w-4xl mx-auto space-y-12">
+
+        <!-- Grammar Section 1 -->
+        <section class="bg-white p-6 sm:p-8 rounded-xl shadow-md border border-slate-200">
+          <h2 class="text-3xl font-bold text-indigo-700 mb-6 border-b-2 border-indigo-200 pb-3">1. The Past Simple Tense</h2>
+          <div class="space-y-4">
+            <p class="text-lg text-slate-700 leading-relaxed mb-4">
+              We use the Past Simple to talk about actions that started and finished in the past. It's for completed actions.
+            </p>
+            <h3 class="font-semibold text-xl text-slate-800 mb-2">How to form it:</h3>
+            <p class="text-lg text-slate-700 leading-relaxed mb-4">
+              For regular verbs, we add <strong class="font-bold text-indigo-600">-ed</strong>. For irregular verbs, we use the second form (e.g., go → went, see → saw).
+            </p>
+            <div class="bg-indigo-50 border-l-4 border-indigo-400 p-4 my-4 rounded-r-lg text-lg text-slate-800">
+              <ul class="space-y-3">
+                <li><strong class="text-green-700">(+)</strong> I <strong class="font-bold">watched</strong> a movie yesterday.</li>
+                <li><strong class="text-red-700">(-)</strong> She <strong class="font-bold">did not (didn't) play</strong> tennis last week.</li>
+                <li><strong class="text-blue-700">(?)</strong> <strong class="font-bold">Did</strong> you <strong class="font-bold">visit</strong> London?</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- Grammar Section 2 -->
+        <section class="bg-white p-6 sm:p-8 rounded-xl shadow-md border border-slate-200">
+          <h2 class="text-3xl font-bold text-indigo-700 mb-6 border-b-2 border-indigo-200 pb-3">2. The Past Continuous Tense</h2>
+          <div class="space-y-4">
+            <p class="text-lg text-slate-700 leading-relaxed mb-4">
+              We use the Past Continuous to talk about actions that were in progress at a specific time in the past. The action was not finished.
+            </p>
+            <h3 class="font-semibold text-xl text-slate-800 mb-2">How to form it:</h3>
+            <p class="text-lg text-slate-700 leading-relaxed mb-4">
+              We use <strong class="font-bold text-indigo-600">was/were + verb-ing</strong>.
+            </p>
+            <div class="bg-indigo-50 border-l-4 border-indigo-400 p-4 my-4 rounded-r-lg text-lg text-slate-800">
+              <ul class="space-y-3">
+                 <li><strong class="text-green-700">(+)</strong> I <strong class="font-bold">was studying</strong> at 8 PM last night.</li>
+                 <li><strong class="text-red-700">(-)</strong> They <strong class="font-bold">were not (weren't) sleeping</strong> when I arrived.</li>
+                 <li><strong class="text-blue-700">(?)</strong> <strong class="font-bold">Was</strong> he <strong class="font-bold">working</strong> at 10 AM?</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- Grammar Section 3 -->
+        <section class="bg-white p-6 sm:p-8 rounded-xl shadow-md border border-slate-200">
+          <h2 class="text-3xl font-bold text-indigo-700 mb-6 border-b-2 border-indigo-200 pb-3">3. Past Simple vs. Past Continuous</h2>
+          <div class="space-y-4">
+             <p class="text-lg text-slate-700 leading-relaxed mb-4">
+              We often use these two tenses together. The Past Continuous describes the longer, "background" action. The Past Simple describes the shorter action that happened in the middle of the longer action.
+            </p>
+             <div class="text-center my-4 p-4 bg-slate-100 rounded-lg">
+                <p class="text-lg">Long Action (Past Continuous)</p>
+                <div class="w-full h-1 bg-indigo-300 my-2 relative">
+                    <div class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-4 h-4 bg-red-500 rounded-full flex items-center justify-center">
+                       <span class="text-xs text-white">X</span>
+                    </div>
+                </div>
+                <p class="text-lg text-red-600 font-semibold">Short Action (Past Simple)</p>
+            </div>
+            <div class="bg-indigo-50 border-l-4 border-indigo-400 p-4 my-4 rounded-r-lg text-lg text-slate-800">
+               <p class="text-lg leading-relaxed">
+                  I <strong class="text-indigo-600">was watching TV</strong> <strong class="font-bold">when</strong> the phone <strong class="text-red-600">rang</strong>.
+               </p>
+               <p class="text-sm text-slate-500 mt-2">(Long action: watching TV. Short, interrupting action: the phone rang.)</p>
+            </div>
+            <div class="bg-indigo-50 border-l-4 border-indigo-400 p-4 my-4 rounded-r-lg text-lg text-slate-800">
+               <p class="text-lg leading-relaxed">
+                  <strong class="font-bold">While</strong> they <strong class="text-indigo-600">were playing football</strong>, it <strong class="text-red-600">started</strong> to rain.
+               </p>
+               <p class="text-sm text-slate-500 mt-2">(Long action: playing football. Short action that happened during: it started to rain.)</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Practice Section -->
+        <section class="bg-white p-6 sm:p-8 rounded-xl shadow-md border border-slate-200">
+          <h2 class="text-3xl font-bold text-emerald-600 mb-6 border-b-2 border-emerald-200 pb-3 flex items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 inline-block mr-3 text-emerald-500" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM7 9H5v2h2V9zm8 0h-2v2h2V9zm-4 5a3 3 0 100-6 3 3 0 000 6z" clip-rule="evenodd" />
+            </svg>
+            Time to Practice!
+          </h2>
+          <p class="text-lg text-slate-700 mb-8">
+            You learned the rules. Now, test your knowledge with these fun games and activities.
+          </p>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Card 1 -->
+            <div class="bg-slate-50 rounded-lg shadow-lg overflow-hidden flex flex-col transform hover:-translate-y-2 transition-transform duration-300 ease-in-out border border-slate-200">
+              <div class="relative">
+                <img src="https://picsum.photos/seed/iceman/400/200" alt="Reading: Ötzi the Iceman" class="w-full h-40 object-cover" />
+                <span class="absolute top-2 right-2 text-xs font-bold px-2 py-1 rounded-full bg-blue-100 text-blue-800">Reading</span>
+              </div>
+              <div class="p-6 flex-grow flex flex-col">
+                <h3 class="text-xl font-bold text-slate-800 mb-2">Reading: Ötzi the Iceman</h3>
+                <p class="text-slate-600 flex-grow mb-4">Read a story about the famous Iceman and see the past tenses in action.</p>
+                <a href="https://otzi-the-iceman-europes--87a4c0h.gamma.site/" target="_blank" rel="noopener noreferrer" class="mt-auto inline-flex items-center justify-center px-4 py-2 bg-emerald-500 text-white font-semibold rounded-md hover:bg-emerald-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-emerald-500 transition-colors duration-300">
+                  Start Activity
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
+                    <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
+                    <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="bg-slate-50 rounded-lg shadow-lg overflow-hidden flex flex-col transform hover:-translate-y-2 transition-transform duration-300 ease-in-out border border-slate-200">
+              <div class="relative">
+                <img src="https://picsum.photos/seed/quiz1/400/200" alt="Quiz: Past Simple or Continuous?" class="w-full h-40 object-cover" />
+                <span class="absolute top-2 right-2 text-xs font-bold px-2 py-1 rounded-full bg-yellow-100 text-yellow-800">Quiz</span>
+              </div>
+              <div class="p-6 flex-grow flex flex-col">
+                <h3 class="text-xl font-bold text-slate-800 mb-2">Quiz: Past Simple or Continuous?</h3>
+                <p class="text-slate-600 flex-grow mb-4">Choose the correct tense to complete the sentences in this fun quiz.</p>
+                <a href="https://wordwall.net/play/97463/764/421" target="_blank" rel="noopener noreferrer" class="mt-auto inline-flex items-center justify-center px-4 py-2 bg-emerald-500 text-white font-semibold rounded-md hover:bg-emerald-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-emerald-500 transition-colors duration-300">
+                  Start Activity
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
+                    <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
+                    <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="bg-slate-50 rounded-lg shadow-lg overflow-hidden flex flex-col transform hover:-translate-y-2 transition-transform duration-300 ease-in-out border border-slate-200">
+              <div class="relative">
+                <img src="https://picsum.photos/seed/game/400/200" alt="Game: Choose the Correct Tense" class="w-full h-40 object-cover" />
+                <span class="absolute top-2 right-2 text-xs font-bold px-2 py-1 rounded-full bg-green-100 text-green-800">Game</span>
+              </div>
+              <div class="p-6 flex-grow flex flex-col">
+                <h3 class="text-xl font-bold text-slate-800 mb-2">Game: Choose the Correct Tense</h3>
+                <p class="text-slate-600 flex-grow mb-4">A fast-paced game to test your knowledge of the past simple and continuous.</p>
+                <a href="https://wordwall.net/play/97465/812/835" target="_blank" rel="noopener noreferrer" class="mt-auto inline-flex items-center justify-center px-4 py-2 bg-emerald-500 text-white font-semibold rounded-md hover:bg-emerald-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-emerald-500 transition-colors duration-300">
+                  Start Activity
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
+                    <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
+                    <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <!-- Card 4 -->
+            <div class="bg-slate-50 rounded-lg shadow-lg overflow-hidden flex flex-col transform hover:-translate-y-2 transition-transform duration-300 ease-in-out border border-slate-200">
+              <div class="relative">
+                <img src="https://picsum.photos/seed/mystery/400/200" alt="Interactive Story: A Mystery" class="w-full h-40 object-cover" />
+                <span class="absolute top-2 right-2 text-xs font-bold px-2 py-1 rounded-full bg-purple-100 text-purple-800">Story</span>
+              </div>
+              <div class="p-6 flex-grow flex flex-col">
+                <h3 class="text-xl font-bold text-slate-800 mb-2">Interactive Story: A Mystery</h3>
+                <p class="text-slate-600 flex-grow mb-4">Explore an interactive story and make choices. See how tenses create a narrative.</p>
+                <a href="https://view.genially.com/68c6b7fa5f2f70576742949d" target="_blank" rel="noopener noreferrer" class="mt-auto inline-flex items-center justify-center px-4 py-2 bg-emerald-500 text-white font-semibold rounded-md hover:bg-emerald-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-emerald-500 transition-colors duration-300">
+                  Start Activity
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
+                    <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" />
+                    <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+      </div>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="bg-slate-800 text-slate-400 mt-12 py-6">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p class="mb-2">&copy; <span id="currentYear"></span> EFL Learning Studio. Happy studying!</p>
+            <div class="text-sm">
+                <p>Have questions or feedback? Contact us:</p>
+                <a href="mailto:contact@efl-learning.com" class="text-indigo-400 hover:text-indigo-300 transition-colors duration-300">
+                    contact@efl-learning.com
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script>
+      document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
   </body>
 </html>
